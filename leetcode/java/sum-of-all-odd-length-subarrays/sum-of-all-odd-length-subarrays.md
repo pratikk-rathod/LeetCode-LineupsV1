@@ -7,7 +7,7 @@
 <div style="border-left:4px solid #ff0099; padding-left:12px; margin:10px 0;">
 <b>Source:</b> <a href="https://leetcode.com/problems/sum-of-all-odd-length-subarrays/description/" style="color:#ff66cc;">LeetCode</a><br>
 <b>Language:</b> java<br>
-<b>Submitted:</b> 2025-12-02T16:28:45.140Z<br>
+<b>Submitted:</b> 2025-12-02T16:29:05.444Z<br>
 
 
 </div>
@@ -20,7 +20,7 @@ Debugging...
 Submit
 2
 2Streaks
-Same time tomorrow? 👀
+Excited for next challenge!
 00:00:00
 Pratik Rathod
 Access all features with our Premium subscription!
@@ -36,42 +36,29 @@ Appearance
 Sign Out
 Premium
 Description
+Editorial
+Editorial
+Solutions
+Solutions
+Submissions
+Submissions
+Code
+Testcase
+Testcase
+Test Result
+1588. Sum of All Odd Length Subarrays
+Solved
+Easy
 
 ---
 
 ## <span style="color:#ff0099;text-shadow:0 0 8px #ff0099;">💡 Solution Code</span>
 
 ```java
-class Solution:
-    def sumOddLengthSubarrays(self, arr: List[int]) -> int:
-        prefix_sum=0
-        prefix_sum_array=[0]
-        ans=0
-        for i in arr:
-            prefix_sum+=i
-            prefix_sum_array.append(prefix_sum)
-        
-
-        n=len(arr)
-
-        if n%2==0:
-            n-=1
-        if n ==1 :
-            return prefix_sum_array[-1]
-        
-        while n >=1:
-            
-            for i in range(0,len(arr)):
-
-                print(i)
-                if i + n >len(arr):
-                   
-                    break
-                ans+= prefix_sum_array[i+n]
-                ans -= prefix_sum_array[i]
-            
-            n-=2
-        return ans
+class Solution:
+    def sumOddLengthSubarrays(self, arr: List[int]) -> 
+int:
+        
 
 ```
 
