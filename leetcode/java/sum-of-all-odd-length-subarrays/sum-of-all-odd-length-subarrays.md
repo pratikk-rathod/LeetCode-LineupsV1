@@ -5,9 +5,9 @@
 <h1 style="color:#00eaff;text-shadow:0 0 10px #00eaff;">⚡ Sum of All Odd Length Subarrays</h1>
 
 <div style="border-left:4px solid #ff0099; padding-left:12px; margin:10px 0;">
-<b>Source:</b> <a href="https://leetcode.com/problems/sum-of-all-odd-length-subarrays/submissions/1845186408/" style="color:#ff66cc;">LeetCode</a><br>
+<b>Source:</b> <a href="https://leetcode.com/problems/sum-of-all-odd-length-subarrays/description/" style="color:#ff66cc;">LeetCode</a><br>
 <b>Language:</b> java<br>
-<b>Submitted:</b> 2025-12-02T16:28:11.563Z<br>
+<b>Submitted:</b> 2025-12-02T16:28:45.140Z<br>
 
 
 </div>
@@ -15,51 +15,27 @@
 ---
 
 ## <span style="color:#39ff14;text-shadow:0 0 8px #39ff14;">📘 Problem Statement</span>
-1588. Sum of All Odd Length SubarraysSolvedEasyTopicsCompaniesHintGiven an array of positive integers arr, return the sum of all possible odd-length subarrays of arr.
-
-A subarray is a contiguous subsequence of the array.
-
- 
-Example 1:
-
-Input: arr = [1,4,2,5,3]
-Output: 58
-Explanation: The odd-length subarrays of arr and their sums are:
-[1] = 1
-[4] = 4
-[2] = 2
-[5] = 5
-[3] = 3
-[1,4,2] = 7
-[4,2,5] = 11
-[2,5,3] = 10
-[1,4,2,5,3] = 15
-If we add all these together we get 1 + 4 + 2 + 5 + 3 + 7 + 11 + 10 + 15 = 58
-
-Example 2:
-
-Input: arr = [1,2]
-Output: 3
-Explanation: There are only 2 subarrays of odd length, [1] and [2]. Their sum is 3.
-
-Example 3:
-
-Input: arr = [10,11,12]
-Output: 66
-
-
- 
-Constraints:
-
-
-	1 <= arr.length <= 100
-	1 <= arr[i] <= 1000
-
-
- 
-Follow up:
-
-Could you solve this problem in O(n) time complexity?
+Problem List
+Debugging...
+Submit
+2
+2Streaks
+Same time tomorrow? 👀
+00:00:00
+Pratik Rathod
+Access all features with our Premium subscription!
+My Lists
+Notebook
+Progress
+Points
+Try New Features
+Orders
+My Playgrounds
+Settings
+Appearance
+Sign Out
+Premium
+Description
 
 ---
 
@@ -103,7 +79,7 @@ class Solution:
 
 ## <span style="color:#00eaff;text-shadow:0 0 8px #00eaff;">📎 Notes</span>
 
-- Original problem: <a href="https://leetcode.com/problems/sum-of-all-odd-length-subarrays/submissions/1845186408/" style="color:#ff66cc;">LeetCode Link</a>  
+- Original problem: <a href="https://leetcode.com/problems/sum-of-all-odd-length-subarrays/description/" style="color:#ff66cc;">LeetCode Link</a>  
 - Auto-saved via <b style="color:#39ff14;">GitLeet Sync</b>  
 - Developed by <b style="color:#ff0099;">Pratik Rathod</b>  
 
