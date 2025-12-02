@@ -5,9 +5,9 @@
 <h1 style="color:#00eaff;text-shadow:0 0 10px #00eaff;">⚡ Sum of All Odd Length Subarrays</h1>
 
 <div style="border-left:4px solid #ff0099; padding-left:12px; margin:10px 0;">
-<b>Source:</b> <a href="https://leetcode.com/problems/sum-of-all-odd-length-subarrays/submissions/1845187798/" style="color:#ff66cc;">LeetCode</a><br>
+<b>Source:</b> <a href="https://leetcode.com/problems/sum-of-all-odd-length-subarrays/submissions/1845189787/" style="color:#ff66cc;">LeetCode</a><br>
 <b>Language:</b> java<br>
-<b>Submitted:</b> 2025-12-02T16:29:37.254Z<br>
+<b>Submitted:</b> 2025-12-02T16:31:48.439Z<br>
 
 
 </div>
@@ -105,7 +105,7 @@ class Solution(object):
 
 ## <span style="color:#00eaff;text-shadow:0 0 8px #00eaff;">📎 Notes</span>
 
-- Original problem: <a href="https://leetcode.com/problems/sum-of-all-odd-length-subarrays/submissions/1845187798/" style="color:#ff66cc;">LeetCode Link</a>  
+- Original problem: <a href="https://leetcode.com/problems/sum-of-all-odd-length-subarrays/submissions/1845189787/" style="color:#ff66cc;">LeetCode Link</a>  
 - Auto-saved via <b style="color:#39ff14;">GitLeet Sync</b>  
 - Developed by <b style="color:#ff0099;">Pratik Rathod</b>  
 
