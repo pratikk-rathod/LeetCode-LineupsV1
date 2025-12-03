@@ -5,9 +5,9 @@
 <h1 style="color:#00eaff;text-shadow:0 0 10px #00eaff;">⚡ Count Number of Trapezoids II</h1>
 
 <div style="border-left:4px solid #ff0099; padding-left:12px; margin:10px 0;">
-<b>Source:</b> <a href="https://leetcode.com/problems/count-number-of-trapezoids-ii/" style="color:#ff66cc;">LeetCode</a><br>
+<b>Source:</b> <a href="https://leetcode.com/problems/count-number-of-trapezoids-ii/submissions/1845956460/" style="color:#ff66cc;">LeetCode</a><br>
 <b>Language:</b> python<br>
-<b>Submitted:</b> 2025-12-03T14:06:31.999Z<br>
+<b>Submitted:</b> 2025-12-03T14:08:35.384Z<br>
 
 
 </div>
@@ -15,42 +15,53 @@
 ---
 
 ## <span style="color:#39ff14;text-shadow:0 0 8px #39ff14;">📘 Problem Statement</span>
-Problem List
-Pending...
-Speed Up
-Debugging...
-Submit
-3
-3Streaks
-Protect your streak!
-04:51:17
-Pratik Rathod
-Access all features with our Premium subscription!
-My Lists
-Notebook
-Progress
-Points
-Try New Features
-Orders
-My Playgrounds
-Settings
-Appearance
-Sign Out
-Premium
-Description
-Editorial
-Editorial
-Solutions
-Solutions
-Submissions
-Submissions
-Code
-Testcase
-Testcase
-Test Result
-3625. Count Number of Trapezoids II
-Solved
-Hard
+3625. Count Number of Trapezoids IISolvedHardTopicsCompaniesHintYou are given a 2D integer array points where points[i] = [xi, yi] represents the coordinates of the ith point on the Cartesian plane.
+
+Return the number of unique trapezoids that can be formed by choosing any four distinct points from points.
+
+A trapezoid is a convex quadrilateral with at least one pair of parallel sides. Two lines are parallel if and only if they have the same slope.
+
+ 
+Example 1:
+
+
+Input: points = [[-3,2],[3,0],[2,3],[3,2],[2,-3]]
+
+Output: 2
+
+Explanation:
+
+ 
+
+There are two distinct ways to pick four points that form a trapezoid:
+
+
+	The points [-3,2], [2,3], [3,2], [2,-3] form one trapezoid.
+	The points [2,3], [3,2], [3,0], [2,-3] form another trapezoid.
+
+
+
+Example 2:
+
+
+Input: points = [[0,0],[1,0],[0,1],[2,1]]
+
+Output: 1
+
+Explanation:
+
+
+
+There is only one trapezoid which can be formed.
+
+
+ 
+Constraints:
+
+
+	4 <= points.length <= 500
+	–1000 <= xi, yi <= 1000
+	All points are pairwise distinct.
 
 ---
 
@@ -111,7 +122,7 @@ class Solution:
 
 ## <span style="color:#00eaff;text-shadow:0 0 8px #00eaff;">📎 Notes</span>
 
-- Original problem: <a href="https://leetcode.com/problems/count-number-of-trapezoids-ii/" style="color:#ff66cc;">LeetCode Link</a>  
+- Original problem: <a href="https://leetcode.com/problems/count-number-of-trapezoids-ii/submissions/1845956460/" style="color:#ff66cc;">LeetCode Link</a>  
 - Auto-saved via <b style="color:#39ff14;">GitLeet Sync</b>  
 - Developed by <b style="color:#ff0099;">Pratik Rathod</b>  
 
