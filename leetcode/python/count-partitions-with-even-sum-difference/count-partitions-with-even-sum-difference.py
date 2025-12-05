@@ -9,6 +9,6 @@ class Solution:
         print(prefix_sum)
         ans=0
         for i in range(len(prefix_sum) -1):
-            if abs(2 * prefix_sum[i] - prefix_sum[-1]) %2 ==0:
+            if (2 * prefix_sum[i] - prefix_sum[-1]) %2 ==0:
                 ans+=1
         return ans
