@@ -2,12 +2,12 @@
 
 <div style="border: 2px solid #00eaff; padding: 18px; border-radius: 10px; background: #0a0f1f; color: #e0faff;">
 
-<h1 style="color:#00eaff;text-shadow:0 0 10px #00eaff;">⚡ Intuition</h1>
+<h1 style="color:#00eaff;text-shadow:0 0 10px #00eaff;">⚡ Count Mentions Per User</h1>
 
 <div style="border-left:4px solid #ff0099; padding-left:12px; margin:10px 0;">
 <b>Source:</b> <a href="https://leetcode.com/problems/count-mentions-per-user/" style="color:#ff66cc;">LeetCode</a><br>
 <b>Language:</b> go<br>
-<b>Submitted:</b> 2025-12-12T03:38:38.015Z<br>
+<b>Submitted:</b> 2025-12-12T03:40:20.697Z<br>
 
 
 </div>
