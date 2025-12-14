@@ -7,7 +7,7 @@
 <div style="border-left:4px solid #ff0099; padding-left:12px; margin:10px 0;">
 <b>Source:</b> <a href="https://leetcode.com/problems/check-if-all-characters-have-equal-number-of-occurrences/" style="color:#ff66cc;">LeetCode</a><br>
 <b>Language:</b> java<br>
-<b>Submitted:</b> 2025-12-14T18:20:00.925Z<br>
+<b>Submitted:</b> 2025-12-14T18:20:26.736Z<br>
 
 
 </div>
@@ -15,32 +15,40 @@
 ---
 
 ## <span style="color:#39ff14;text-shadow:0 0 8px #39ff14;">📘 Problem Statement</span>
-1941. Check if All Characters Have Equal Number of OccurrencesSolvedEasyTopicsCompaniesHintGiven a string s, return true if s is a good string, or false otherwise.
-
-A string s is good if all the characters that appear in s have the same number of occurrences (i.e., the same frequency).
-
- 
-Example 1:
-
-Input: s = "abacbc"
-Output: true
-Explanation: The characters that appear in s are 'a', 'b', and 'c'. All characters occur 2 times in s.
-
-
-Example 2:
-
-Input: s = "aaabb"
-Output: false
-Explanation: The characters that appear in s are 'a' and 'b'.
-'a' occurs 3 times while 'b' occurs 2 times, which is not the same number of times.
-
-
- 
-Constraints:
-
-
-	1 <= s.length <= 1000
-	s consists of lowercase English letters.
+Problem List
+Debugging...
+Submit
+4
+4Streaks
+Extend Your Streak!
+00:00:00
+Pratik Rathod
+Access all features with our Premium subscription!
+My Lists
+Notebook
+Progress
+Points
+Try New Features
+Orders
+My Playgrounds
+Settings
+Appearance
+Sign Out
+Premium
+Description
+Editorial
+Editorial
+Solutions
+Solutions
+Submissions
+Submissions
+Code
+Testcase
+Testcase
+Test Result
+1941. Check if All Characters Have Equal Number of Occurrences
+Solved
+Easy
 
 ---
 
@@ -51,7 +59,6 @@ class Solution:
     def areOccurrencesEqual(self, s: str) -> bool:
         return len(set(Counter(s).values())) == 1
 
-        
 ```
 
 ---
