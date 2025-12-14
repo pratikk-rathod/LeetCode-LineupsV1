@@ -7,7 +7,7 @@
 <div style="border-left:4px solid #ff0099; padding-left:12px; margin:10px 0;">
 <b>Source:</b> <a href="https://leetcode.com/problems/check-if-all-characters-have-equal-number-of-occurrences/" style="color:#ff66cc;">LeetCode</a><br>
 <b>Language:</b> java<br>
-<b>Submitted:</b> 2025-12-14T18:20:00.930Z<br>
+<b>Submitted:</b> 2025-12-14T18:20:00.925Z<br>
 
 
 </div>
