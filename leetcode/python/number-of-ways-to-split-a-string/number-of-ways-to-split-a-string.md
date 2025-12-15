@@ -7,7 +7,7 @@
 <div style="border-left:4px solid #ff0099; padding-left:12px; margin:10px 0;">
 <b>Source:</b> <a href="https://leetcode.com/problems/number-of-ways-to-split-a-string/" style="color:#ff66cc;">LeetCode</a><br>
 <b>Language:</b> python<br>
-<b>Submitted:</b> 2025-12-15T16:57:35.294Z<br>
+<b>Submitted:</b> 2025-12-15T16:58:08.418Z<br>
 
 
 </div>
@@ -128,6 +128,10 @@ Constraints:
 #         ans = ((f_m - l)* (f_r -m )) % mod
 #         return ans
 
+# Enhanced version--->>>>>
+# Enhanced version--->>>>>
+# Enhanced version--->>>>>
+# Enhanced version--->>>>>
 # Enhanced version--->>>>>
 
 
