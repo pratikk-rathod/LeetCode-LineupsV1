@@ -5,9 +5,9 @@
 <h1 style="color:#00eaff;text-shadow:0 0 10px #00eaff;">⚡ Number of Ways to Split a String</h1>
 
 <div style="border-left:4px solid #ff0099; padding-left:12px; margin:10px 0;">
-<b>Source:</b> <a href="https://leetcode.com/problems/number-of-ways-to-split-a-string/submissions/1856445788/" style="color:#ff66cc;">LeetCode</a><br>
+<b>Source:</b> <a href="https://leetcode.com/problems/number-of-ways-to-split-a-string/" style="color:#ff66cc;">LeetCode</a><br>
 <b>Language:</b> python<br>
-<b>Submitted:</b> 2025-12-15T16:56:58.673Z<br>
+<b>Submitted:</b> 2025-12-15T16:57:35.294Z<br>
 
 
 </div>
@@ -160,7 +160,7 @@ class Solution:
 
 ## <span style="color:#00eaff;text-shadow:0 0 8px #00eaff;">📎 Notes</span>
 
-- Original problem: <a href="https://leetcode.com/problems/number-of-ways-to-split-a-string/submissions/1856445788/" style="color:#ff66cc;">LeetCode Link</a>  
+- Original problem: <a href="https://leetcode.com/problems/number-of-ways-to-split-a-string/" style="color:#ff66cc;">LeetCode Link</a>  
 - Auto-saved via <b style="color:#39ff14;">GitLeet Sync</b>  
 - Developed by <b style="color:#ff0099;">Pratik Rathod</b>  
 
