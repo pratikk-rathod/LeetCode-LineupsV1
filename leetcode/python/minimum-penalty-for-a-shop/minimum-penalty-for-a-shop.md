@@ -7,7 +7,7 @@
 <div style="border-left:4px solid #ff0099; padding-left:12px; margin:10px 0;">
 <b>Source:</b> <a href="https://leetcode.com/problems/minimum-penalty-for-a-shop/" style="color:#ff66cc;">LeetCode</a><br>
 <b>Language:</b> python<br>
-<b>Submitted:</b> 2025-12-26T17:00:03.496Z<br>
+<b>Submitted:</b> 2025-12-26T17:00:35.707Z<br>
 
 
 </div>
@@ -108,6 +108,12 @@ Constraints:
 #             if value==maxx:
 #                 return key
 
+#         # return maxx
+#         # return maxx
+#         # return maxx
+#         # return maxx
+#         # return maxx
+#         # return maxx
 #         # return maxx
         
 
