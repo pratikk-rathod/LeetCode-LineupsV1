@@ -7,7 +7,7 @@
 <div style="border-left:4px solid #ff0099; padding-left:12px; margin:10px 0;">
 <b>Source:</b> <a href="https://leetcode.com/problems/sqrtx/submissions/1868759118/" style="color:#ff66cc;">LeetCode</a><br>
 <b>Language:</b> python<br>
-<b>Submitted:</b> 2025-12-29T19:26:27.851Z<br>
+<b>Submitted:</b> 2025-12-29T19:26:58.363Z<br>
 
 
 </div>
