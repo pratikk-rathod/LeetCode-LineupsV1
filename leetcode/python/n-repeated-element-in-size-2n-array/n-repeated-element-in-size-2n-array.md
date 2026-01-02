@@ -5,9 +5,9 @@
 <h1 style="color:#00eaff;text-shadow:0 0 10px #00eaff;">⚡ N-Repeated Element in Size 2N Array</h1>
 
 <div style="border-left:4px solid #ff0099; padding-left:12px; margin:10px 0;">
-<b>Source:</b> <a href="https://leetcode.com/problems/n-repeated-element-in-size-2n-array/submissions/1872457127/" style="color:#ff66cc;">LeetCode</a><br>
+<b>Source:</b> <a href="https://leetcode.com/problems/n-repeated-element-in-size-2n-array/" style="color:#ff66cc;">LeetCode</a><br>
 <b>Language:</b> python<br>
-<b>Submitted:</b> 2026-01-02T20:00:53.765Z<br>
+<b>Submitted:</b> 2026-01-02T20:01:55.601Z<br>
 
 
 </div>
@@ -52,21 +52,32 @@ Constraints:
 ```python
 class Solution:
     def repeatedNTimes(self, nums: List[int]) -> int:
-        nums.sort()
-        for i, val in enumerate(nums):
-            prev=i
-            nextt=i+1
 
-            if val==nums[nextt]:
-                return val
-        return 3
+        dictt={}
+
+        for i in nums:
+            if i in dictt:
+                return i
+            else:
+                dictt[i]=0
+    
+#         nums.sort()
+#         for i, val in enumerate(nums):
+#             prev=i
+#             nextt=i+1
+
+#             if val==nums[nextt]:
+#                 return val
+#         return 3
+
+
 ```
 
 ---
 
 ## <span style="color:#00eaff;text-shadow:0 0 8px #00eaff;">📎 Notes</span>
 
-- Original problem: <a href="https://leetcode.com/problems/n-repeated-element-in-size-2n-array/submissions/1872457127/" style="color:#ff66cc;">LeetCode Link</a>  
+- Original problem: <a href="https://leetcode.com/problems/n-repeated-element-in-size-2n-array/" style="color:#ff66cc;">LeetCode Link</a>  
 - Auto-saved via <b style="color:#39ff14;">GitLeet Sync</b>  
 - Developed by <b style="color:#ff0099;">Pratik Rathod</b>  
 
