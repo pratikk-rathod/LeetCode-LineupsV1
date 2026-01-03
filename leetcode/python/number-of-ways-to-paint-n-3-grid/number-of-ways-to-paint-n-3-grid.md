@@ -2,12 +2,12 @@
 
 <div style="border: 2px solid #00eaff; padding: 18px; border-radius: 10px; background: #0a0f1f; color: #e0faff;">
 
-<h1 style="color:#00eaff;text-shadow:0 0 10px #00eaff;">⚡ Intuition</h1>
+<h1 style="color:#00eaff;text-shadow:0 0 10px #00eaff;">⚡ Number of Ways to Paint N × 3 Grid</h1>
 
 <div style="border-left:4px solid #ff0099; padding-left:12px; margin:10px 0;">
 <b>Source:</b> <a href="https://leetcode.com/problems/number-of-ways-to-paint-n-3-grid/" style="color:#ff66cc;">LeetCode</a><br>
 <b>Language:</b> python<br>
-<b>Submitted:</b> 2026-01-03T19:01:56.653Z<br>
+<b>Submitted:</b> 2026-01-03T19:03:29.554Z<br>
 
 
 </div>
@@ -15,30 +15,40 @@
 ---
 
 ## <span style="color:#39ff14;text-shadow:0 0 8px #39ff14;">📘 Problem Statement</span>
-1411. Number of Ways to Paint N × 3 GridSolvedHardTopicsCompaniesHintYou have a grid of size n x 3 and you want to paint each cell of the grid with exactly one of the three colors: Red, Yellow, or Green while making sure that no two adjacent cells have the same color (i.e., no two cells that share vertical or horizontal sides have the same color).
-
-Given n the number of rows of the grid, return the number of ways you can paint this grid. As the answer may grow large, the answer must be computed modulo 109 + 7.
-
- 
-Example 1:
-
-Input: n = 1
-Output: 12
-Explanation: There are 12 possible way to paint the grid as shown.
-
-
-Example 2:
-
-Input: n = 5000
-Output: 30228214
-
-
- 
-Constraints:
-
-
-	n == grid.length
-	1 <= n <= 5000
+Daily Question
+Debugging...
+Submit
+25
+25Streaks
+Protect your streak!
+00:06:23
+Pratik Rathod
+Access all features with our Premium subscription!
+My Lists
+Notebook
+Progress
+Points
+Try New Features
+Orders
+My Playgrounds
+Settings
+Appearance
+Sign Out
+Premium
+Description
+Editorial
+Editorial
+Solutions
+Solutions
+Submissions
+Submissions
+Code
+Testcase
+Testcase
+Test Result
+1411. Number of Ways to Paint N × 3 Grid
+Solved
+Hard
 
 ---
 
