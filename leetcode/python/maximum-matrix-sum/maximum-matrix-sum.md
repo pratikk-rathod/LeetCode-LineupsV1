@@ -7,7 +7,7 @@
 <div style="border-left:4px solid #ff0099; padding-left:12px; margin:10px 0;">
 <b>Source:</b> <a href="https://leetcode.com/problems/maximum-matrix-sum/" style="color:#ff66cc;">LeetCode</a><br>
 <b>Language:</b> python<br>
-<b>Submitted:</b> 2026-01-05T17:52:07.909Z<br>
+<b>Submitted:</b> 2026-01-08T20:05:39.990Z<br>
 
 
 </div>
@@ -17,15 +17,14 @@
 ## <span style="color:#39ff14;text-shadow:0 0 8px #39ff14;">📘 Problem Statement</span>
 You are given an n x n integer matrix. You can do the following operation any number of times:
 
-
-	Choose any two adjacent elements of matrix and multiply each of them by -1.
-
+Choose any two adjacent elements of matrix and multiply each of them by -1.
 
 Two elements are considered adjacent if and only if they share a border.
 
 Your goal is to maximize the summation of the matrix's elements. Return the maximum sum of the matrix's elements using the operation mentioned above.
 
  
+
 Example 1:
 
 Input: matrix = [[1,-1],[-1,1]]
@@ -44,12 +43,12 @@ Explanation: We can follow the following step to reach sum equals 16:
 
 
  
+
 Constraints:
 
-
-	n == matrix.length == matrix[i].length
-	2 <= n <= 250
-	-105 <= matrix[i][j] <= 105
+n == matrix.length == matrix[i].length
+2 <= n <= 250
+-105 <= matrix[i][j] <= 105
 
 ---
 
@@ -68,6 +67,7 @@ class Solution:
                     negOdd=1-negOdd
                 else:
                     sum+=x
+                    # adfaeswf
         return sum-2*negOdd*minAbs
         
 ```
