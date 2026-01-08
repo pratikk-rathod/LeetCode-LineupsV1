@@ -10,5 +10,6 @@ class Solution:
                     negOdd=1-negOdd
                 else:
                     sum+=x
+                    # adfaeswf
         return sum-2*negOdd*minAbs
         
