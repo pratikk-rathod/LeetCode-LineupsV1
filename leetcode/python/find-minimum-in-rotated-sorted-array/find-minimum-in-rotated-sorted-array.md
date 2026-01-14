@@ -5,9 +5,9 @@
 <h1 style="color:#00eaff;text-shadow:0 0 10px #00eaff;">⚡ Find Minimum in Rotated Sorted Array</h1>
 
 <div style="border-left:4px solid #ff0099; padding-left:12px; margin:10px 0;">
-<b>Source:</b> <a href="https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/submissions/1884441775/" style="color:#ff66cc;">LeetCode</a><br>
+<b>Source:</b> <a href="https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/submissions/1884463231/" style="color:#ff66cc;">LeetCode</a><br>
 <b>Language:</b> python<br>
-<b>Submitted:</b> 2026-01-14T04:10:52.791Z<br>
+<b>Submitted:</b> 2026-01-14T04:44:49.269Z<br>
 
 
 </div>
@@ -66,17 +66,48 @@ Constraints:
 
 ```python
 # Brute Force
+# class Solution:
+#     def findMin(self, nums: List[int]) -> int:
+#         nums.sort()
+#         return nums[0]
+
 class Solution:
     def findMin(self, nums: List[int]) -> int:
-        nums.sort()
-        return nums[0]
+
+        def binarySearch(nums,low,high,temp):
+            if high<=low:
+                return nums[low]
+            
+            mid = low + (high-low)//2
+
+            print(low,mid, high)
+
+            if nums[low]<= nums[mid] and nums[mid] <= nums[high]:
+
+                high=mid-1
+                return binarySearch(nums,low,high,temp)
+
+            elif nums[low]<= nums[mid] and nums[mid] >= nums[high]:
+                low=mid+1
+                
+                return binarySearch(nums,low,high,temp)
+            else:
+                low=low+1
+                return binarySearch(nums,low,high,temp)
+
+
+        
+
+        low,high = 0, len(nums)-1
+
+        return binarySearch(nums,low,high,0)
 ```
 
 ---
 
 ## <span style="color:#00eaff;text-shadow:0 0 8px #00eaff;">📎 Notes</span>
 
-- Original problem: <a href="https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/submissions/1884441775/" style="color:#ff66cc;">LeetCode Link</a>  
+- Original problem: <a href="https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/submissions/1884463231/" style="color:#ff66cc;">LeetCode Link</a>  
 - Auto-saved via <b style="color:#39ff14;">GitLeet Sync</b>  
 - Developed by <b style="color:#ff0099;">Pratik Rathod</b>  
 
