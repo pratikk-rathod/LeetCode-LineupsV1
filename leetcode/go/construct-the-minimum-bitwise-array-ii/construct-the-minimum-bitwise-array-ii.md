@@ -1,0 +1,92 @@
+
+
+<div style="border: 2px solid #00eaff; padding: 18px; border-radius: 10px; background: #0a0f1f; color: #e0faff;">
+
+<h1 style="color:#00eaff;text-shadow:0 0 10px #00eaff;">⚡ Intuition</h1>
+
+<div style="border-left:4px solid #ff0099; padding-left:12px; margin:10px 0;">
+<b>Source:</b> <a href="https://leetcode.com/problems/construct-the-minimum-bitwise-array-ii/" style="color:#ff66cc;">LeetCode</a><br>
+<b>Language:</b> go<br>
+<b>Submitted:</b> 2026-01-21T04:23:49.527Z<br>
+
+
+</div>
+
+---
+
+## <span style="color:#39ff14;text-shadow:0 0 8px #39ff14;">📘 Problem Statement</span>
+Daily Question
+Debugging...
+Submit
+43
+43Streaks
+Excited for next challenge!
+12:02:11
+Pratik Rathod
+Access all features with our Premium subscription!
+My Lists
+Notebook
+Progress
+Points
+Try New Features
+Orders
+My Playgrounds
+Settings
+Appearance
+Sign Out
+Premium
+Description
+Editorial
+Editorial
+Solutions
+Solutions
+
+---
+
+## <span style="color:#ff0099;text-shadow:0 0 8px #ff0099;">💡 Solution Code</span>
+
+```txt
+class Solution:
+    def minBitwiseArray(self, nums):
+        N = len(nums)
+        Ans = [-1] * N
+
+        for i in range(N):
+            if nums[i] == 2:
+                continue
+
+            n = nums[i]
+            pos = 0
+
+            while n > 0 and ((n >> pos) & 1) == 1:
+                pos += 1
+
+            if (1 << pos) > n:
+                highestBit = n.bit_length() - 1
+                n = n & ~(1 << highestBit)
+            else:
+                n = n & ~(1 << (pos - 1))
+
+            Ans[i] = n
+
+        return Ans
+```
+
+---
+
+## <span style="color:#00eaff;text-shadow:0 0 8px #00eaff;">📎 Notes</span>
+
+- Original problem: <a href="https://leetcode.com/problems/construct-the-minimum-bitwise-array-ii/" style="color:#ff66cc;">LeetCode Link</a>  
+- Auto-saved via <b style="color:#39ff14;">GitLeet Sync</b>  
+- Developed by <b style="color:#ff0099;">Pratik Rathod</b>  
+
+
+---
+
+## <span style="color:#ff66cc;text-shadow:0 0 8px #ff66cc;">🔗 Connect With Me</span>
+
+- <b>LinkedIn:</b> <a href="https://linkedin.com/in/pratikk-rathod" style="color:#00eaff;">Linkedin</a>  
+- <b>LeetCode Profile:</b> <a href="https://leetcode.com/pratikk_rathod" style="color:#39ff14;">LeetCode</a>
+
+</div>
+
