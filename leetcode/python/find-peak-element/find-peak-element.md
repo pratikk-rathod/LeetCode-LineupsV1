@@ -5,9 +5,9 @@
 <h1 style="color:#00eaff;text-shadow:0 0 10px #00eaff;">⚡ Find Peak Element</h1>
 
 <div style="border-left:4px solid #ff0099; padding-left:12px; margin:10px 0;">
-<b>Source:</b> <a href="https://leetcode.com/problems/find-peak-element/submissions/1889197859/" style="color:#ff66cc;">LeetCode</a><br>
+<b>Source:</b> <a href="https://leetcode.com/problems/find-peak-element/submissions/1892564869/" style="color:#ff66cc;">LeetCode</a><br>
 <b>Language:</b> python<br>
-<b>Submitted:</b> 2026-01-18T18:45:47.260Z<br>
+<b>Submitted:</b> 2026-01-21T19:27:02.861Z<br>
 
 
 </div>
@@ -15,34 +15,35 @@
 ---
 
 ## <span style="color:#39ff14;text-shadow:0 0 8px #39ff14;">📘 Problem Statement</span>
-162. Find Peak ElementSolvedMediumTopicsCompaniesA peak element is an element that is strictly greater than its neighbors.
-
-Given a 0-indexed integer array nums, find a peak element, and return its index. If the array contains multiple peaks, return the index to any of the peaks.
-
-You may imagine that nums[-1] = nums[n] = -∞. In other words, an element is always considered to be strictly greater than a neighbor that is outside the array.
-
-You must write an algorithm that runs in O(log n) time.
-
- 
-Example 1:
-
-Input: nums = [1,2,3,1]
-Output: 2
-Explanation: 3 is a peak element and your function should return the index number 2.
-
-Example 2:
-
-Input: nums = [1,2,1,3,5,6,4]
-Output: 5
-Explanation: Your function can return either index number 1 where the peak element is 2, or index number 5 where the peak element is 6.
-
- 
-Constraints:
-
-
-	1 <= nums.length <= 1000
-	-231 <= nums[i] <= 231 - 1
-	nums[i] != nums[i + 1] for all valid i.
+Problem List
+Debugging...
+Submit
+43
+43Streaks
+Well Done!
+12:02:11
+Pratik Rathod
+Access all features with our Premium subscription!
+My Lists
+Notebook
+Progress
+Points
+Try New Features
+Orders
+My Playgrounds
+Settings
+Appearance
+Sign Out
+Premium
+Description
+Editorial
+Editorial
+Solutions
+Solutions
+Submissions
+Submissions
+Code
+Code
 
 ---
 
@@ -51,12 +52,50 @@ Constraints:
 ```python
 class Solution:
     def findPeakElement(self, nums: List[int]) -> int:
-        #Brute Force O(N)
-        ans=0
-        for i in range(len(nums)-1):
-            if nums[i+1]>nums[i]:
-                ans=i+1
-        return ans
+
+        l,r, ans = 0, len(nums)-1,0
+
+        while l<r:
+            mid = l + (r-l)//2
+            if nums[mid] < nums[mid+1]:
+                l=mid+1
+            
+            else:
+                r=mid
+        return l
+
+        # if len(nums)==1:
+        #     return 0
+        # ans=0
+        # # for i in range(len(nums)-1):
+        # #     if nums[i+1]>nums[i]:
+        # #         ans=i+1
+        # # return ans
+        
+        # def bS(nums,l,r,anss):
+        #     # global ans
+        #     nonlocal ans
+            
+        #     m = l + (r-l)//2
+            
+        #     if nums[m+1]>nums[m]:
+        #         ans=m+1
+        #     if r<=l or l==m:
+        #         return        
+            
+        #     bS(nums,l,m,ans)
+        #     bS(nums,m,r,ans)
+        # bS(nums,0,len(nums)-1, ans)
+        # return ans
+
+# class Solution:
+#     def findPeakElement(self, nums: List[int]) -> int:
+#         #Brute Force O(N)
+#         ans=0
+#         for i in range(len(nums)-1):
+#             if nums[i+1]>nums[i]:
+#                 ans=i+1
+#         return ans
         
 ```
 
@@ -64,7 +103,7 @@ class Solution:
 
 ## <span style="color:#00eaff;text-shadow:0 0 8px #00eaff;">📎 Notes</span>
 
-- Original problem: <a href="https://leetcode.com/problems/find-peak-element/submissions/1889197859/" style="color:#ff66cc;">LeetCode Link</a>  
+- Original problem: <a href="https://leetcode.com/problems/find-peak-element/submissions/1892564869/" style="color:#ff66cc;">LeetCode Link</a>  
 - Auto-saved via <b style="color:#39ff14;">GitLeet Sync</b>  
 - Developed by <b style="color:#ff0099;">Pratik Rathod</b>  
 
