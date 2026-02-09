@@ -1,0 +1,24 @@
+class Solution:
+    def dfs(self,root,l):
+        if root is None:
+            return
+        a = root.left
+        b = root.right
+        root.left = None
+        root.right = None
+        self.dfs(a,l)
+        l.append(root)
+        self.dfs(b,l)
+    def balanceBST(self, root: TreeNode) -> TreeNode:
+        l = []
+        self.dfs(root,l)
+        print(l[0])
+        def helper(l,r,lst):
+            if l > r:
+                return None
+            m = ((l+r)//2)
+            ro = lst[m]
+            ro.left = helper(l,m-1,lst)
+            ro.right = helper(m+1,r,lst)
+            return ro
+        return helper(0,len(l)-1,l)   
