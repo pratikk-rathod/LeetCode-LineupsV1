@@ -5,9 +5,9 @@
 <h1 style="color:#00eaff;text-shadow:0 0 10px #00eaff;">⚡ Binary Watch</h1>
 
 <div style="border-left:4px solid #ff0099; padding-left:12px; margin:10px 0;">
-<b>Source:</b> <a href="https://leetcode.com/problems/binary-watch/submissions/1922498796/" style="color:#ff66cc;">LeetCode</a><br>
+<b>Source:</b> <a href="https://leetcode.com/problems/binary-watch/" style="color:#ff66cc;">LeetCode</a><br>
 <b>Language:</b> python<br>
-<b>Submitted:</b> 2026-02-17T18:24:20.103Z<br>
+<b>Submitted:</b> 2026-02-17T18:29:42.966Z<br>
 
 
 </div>
@@ -80,7 +80,7 @@ class Solution:
 
 ## <span style="color:#00eaff;text-shadow:0 0 8px #00eaff;">📎 Notes</span>
 
-- Original problem: <a href="https://leetcode.com/problems/binary-watch/submissions/1922498796/" style="color:#ff66cc;">LeetCode Link</a>  
+- Original problem: <a href="https://leetcode.com/problems/binary-watch/" style="color:#ff66cc;">LeetCode Link</a>  
 - Auto-saved via <b style="color:#39ff14;">GitLeet Sync</b>  
 - Developed by <b style="color:#ff0099;">Pratik Rathod</b>  
 
