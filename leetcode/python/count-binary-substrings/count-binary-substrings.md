@@ -5,9 +5,9 @@
 <h1 style="color:#00eaff;text-shadow:0 0 10px #00eaff;">⚡ Count Binary Substrings</h1>
 
 <div style="border-left:4px solid #ff0099; padding-left:12px; margin:10px 0;">
-<b>Source:</b> <a href="https://leetcode.com/problems/count-binary-substrings/" style="color:#ff66cc;">LeetCode</a><br>
+<b>Source:</b> <a href="https://leetcode.com/problems/count-binary-substrings/submissions/1923920368/" style="color:#ff66cc;">LeetCode</a><br>
 <b>Language:</b> python<br>
-<b>Submitted:</b> 2026-02-19T04:17:04.663Z<br>
+<b>Submitted:</b> 2026-02-19T04:18:50.102Z<br>
 
 
 </div>
@@ -54,28 +54,22 @@ class Solution:
         ans=0
         c0=0
         c1=0
-        swapDetected=False
         prev=s[0]
         for i in range(len(s)):
             if prev!=s[i]:
-
                 if c0!=0 and c1!=0:
-
-                    
                     ans+=min(c0,c1)
-                    
-
                 if s[i]=="1":
                     c1=0
                 if s[i]=="0":
                     c0=0
-                swapDetected=True
+               
             if s[i]=="0":
                 c0+=1
             if s[i]=="1":
                 c1+=1
             prev=s[i]
-            swapDetected=False
+            
        
         return ans
 
@@ -110,7 +104,7 @@ class Solution:
 
 ## <span style="color:#00eaff;text-shadow:0 0 8px #00eaff;">📎 Notes</span>
 
-- Original problem: <a href="https://leetcode.com/problems/count-binary-substrings/" style="color:#ff66cc;">LeetCode Link</a>  
+- Original problem: <a href="https://leetcode.com/problems/count-binary-substrings/submissions/1923920368/" style="color:#ff66cc;">LeetCode Link</a>  
 - Auto-saved via <b style="color:#39ff14;">GitLeet Sync</b>  
 - Developed by <b style="color:#ff0099;">Pratik Rathod</b>  
 
