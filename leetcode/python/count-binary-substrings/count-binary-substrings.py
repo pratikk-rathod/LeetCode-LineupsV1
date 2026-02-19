@@ -4,28 +4,22 @@ class Solution:
         ans=0
         c0=0
         c1=0
-        swapDetected=False
         prev=s[0]
         for i in range(len(s)):
             if prev!=s[i]:
-
                 if c0!=0 and c1!=0:
-
-                    
                     ans+=min(c0,c1)
-                    
-
                 if s[i]=="1":
                     c1=0
                 if s[i]=="0":
                     c0=0
-                swapDetected=True
+               
             if s[i]=="0":
                 c0+=1
             if s[i]=="1":
                 c1+=1
             prev=s[i]
-            swapDetected=False
+            
        
         return ans
 
