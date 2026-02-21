@@ -1,0 +1,24 @@
+#Brute Force
+
+class Solution:
+    def countPrimeSetBits(self, left: int, right: int) -> int:
+        
+        ans=0 
+
+        for i in range(left, right+1):
+
+            c=bin(i)[2:]
+            coount = c.count('1')
+            # print(coount)
+            true=True
+            if coount<=1:
+                continue
+            for j in range(2,coount):
+                # print("inforlloooppp", coount, j)
+                if coount % j ==0:
+                    true=False
+                    break
+            # print(true)
+            if true ==True:
+                ans+=1
+        return ans
