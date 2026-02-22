@@ -7,7 +7,7 @@
 <div style="border-left:4px solid #ff0099; padding-left:12px; margin:10px 0;">
 <b>Source:</b> <a href="https://leetcode.com/problems/kth-missing-positive-number/" style="color:#ff66cc;">LeetCode</a><br>
 <b>Language:</b> python<br>
-<b>Submitted:</b> 2026-02-22T14:30:38.977Z<br>
+<b>Submitted:</b> 2026-02-22T14:31:32.762Z<br>
 
 
 </div>
@@ -20,7 +20,7 @@ Debugging...
 Submit
 75
 75Streaks
-Already missing you!
+Well Done!
 13:27:20
 Pratik Rathod
 Access all features with our Premium subscription!
@@ -34,7 +34,6 @@ My Playgrounds
 Settings
 Appearance
 Sign Out
-Premium
 Description
 Editorial
 Editorial
@@ -94,7 +93,7 @@ class Solution:
 
 
         # count=0
-        # curr=arr[0]
+        # curr=arr[0]cccc
         # curri=0
         # for i in range(1,arr[-1]+100000):
         #     if curri>=len(arr):
