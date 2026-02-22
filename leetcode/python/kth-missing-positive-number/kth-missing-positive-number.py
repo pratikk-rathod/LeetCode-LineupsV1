@@ -4,6 +4,7 @@ class Solution:
         l, r = 0, len(arr)-1
         if arr[r] == len(arr):
             return r +k+1
+            #
 
         def bForMissing(arr, l ,r, k):
             m = l + (r-l)//2
@@ -17,10 +18,10 @@ class Solution:
                     return arr[l] + (k - (arr[l] -len(arr[:l]))) +1
                 # return l +k +1
             
-            if len(arr[:m]) == arr[m]-1:
-                l=m+1
-                # print('midddddddddd')
-                return bForMissing(arr,l,r,k)
+            # if len(arr[:m]) == arr[m]-1:
+            #     l=m+1
+            #     # print('midddddddddd')
+            #     return bForMissing(arr,l,r,k)
             
             if len(arr[:m]) < arr[m] -1 and k + len(arr[:m])+1 <= arr[m]:
                 r=m
