@@ -7,7 +7,7 @@
 <div style="border-left:4px solid #ff0099; padding-left:12px; margin:10px 0;">
 <b>Source:</b> <a href="https://leetcode.com/problems/kth-missing-positive-number/" style="color:#ff66cc;">LeetCode</a><br>
 <b>Language:</b> python<br>
-<b>Submitted:</b> 2026-02-22T13:51:25.114Z<br>
+<b>Submitted:</b> 2026-02-22T14:30:38.977Z<br>
 
 
 </div>
@@ -61,6 +61,7 @@ class Solution:
         l, r = 0, len(arr)-1
         if arr[r] == len(arr):
             return r +k+1
+            #
 
         def bForMissing(arr, l ,r, k):
             m = l + (r-l)//2
@@ -74,10 +75,10 @@ class Solution:
                     return arr[l] + (k - (arr[l] -len(arr[:l]))) +1
                 # return l +k +1
             
-            if len(arr[:m]) == arr[m]-1:
-                l=m+1
-                # print('midddddddddd')
-                return bForMissing(arr,l,r,k)
+            # if len(arr[:m]) == arr[m]-1:
+            #     l=m+1
+            #     # print('midddddddddd')
+            #     return bForMissing(arr,l,r,k)
             
             if len(arr[:m]) < arr[m] -1 and k + len(arr[:m])+1 <= arr[m]:
                 r=m
