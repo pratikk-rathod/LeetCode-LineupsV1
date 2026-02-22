@@ -37,7 +37,7 @@ class Solution:
 
 
         # count=0
-        # curr=arr[0]
+        # curr=arr[0]cccc
         # curri=0
         # for i in range(1,arr[-1]+100000):
         #     if curri>=len(arr):
