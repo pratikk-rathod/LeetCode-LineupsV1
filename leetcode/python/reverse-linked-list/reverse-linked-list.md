@@ -5,9 +5,9 @@
 <h1 style="color:#00eaff;text-shadow:0 0 10px #00eaff;">⚡ Reverse Linked List</h1>
 
 <div style="border-left:4px solid #ff0099; padding-left:12px; margin:10px 0;">
-<b>Source:</b> <a href="https://leetcode.com/problems/reverse-linked-list/submissions/1210349657/" style="color:#ff66cc;">LeetCode</a><br>
+<b>Source:</b> <a href="https://leetcode.com/problems/reverse-linked-list/" style="color:#ff66cc;">LeetCode</a><br>
 <b>Language:</b> python<br>
-<b>Submitted:</b> 2026-02-22T19:21:20.719Z<br>
+<b>Submitted:</b> 2026-02-23T04:06:35.404Z<br>
 
 
 </div>
@@ -15,37 +15,34 @@
 ---
 
 ## <span style="color:#39ff14;text-shadow:0 0 8px #39ff14;">📘 Problem Statement</span>
-206. Reverse Linked ListSolvedEasyTopicsCompaniesGiven the head of a singly linked list, reverse the list, and return the reversed list.
-
- 
-Example 1:
-
-Input: head = [1,2,3,4,5]
-Output: [5,4,3,2,1]
-
-
-Example 2:
-
-Input: head = [1,2]
-Output: [2,1]
-
-
-Example 3:
-
-Input: head = []
-Output: []
-
-
- 
-Constraints:
-
-
-	The number of nodes in the list is the range [0, 5000].
-	-5000 <= Node.val <= 5000
-
-
- 
-Follow up: A linked list can be reversed either iteratively or recursively. Could you implement both?
+Problem List
+Debugging...
+Submit
+75
+75Streaks
+Same time tomorrow? 👀
+13:27:20
+Pratik Rathod
+Access all features with our Premium subscription!
+My Lists
+Notebook
+Progress
+Points
+Try New Features
+Orders
+My Playgrounds
+Settings
+Appearance
+Sign Out
+Premium
+Description
+Editorial
+Editorial
+Solutions
+Solutions
+Submissions
+Submissions
+Code
 
 ---
 
@@ -59,14 +56,23 @@ Follow up: A linked list can be reversed either iteratively or recursively. Coul
 #         self.next = next
 class Solution:
     def reverseList(self, head: Optional[ListNode]) -> Optional[ListNode]:
-        x = head
-
+        
+        if head:
+            x= ListNode(head.val)
+        else:
+            return head
         while head:
             head=head.next
+            if head:
+                y = ListNode(head.val)
+                y.next=x
 
-            x=head.next
-            x.next=head
+                x=y
+
         return x
+            
+
+
         
 ```
 
@@ -74,7 +80,7 @@ class Solution:
 
 ## <span style="color:#00eaff;text-shadow:0 0 8px #00eaff;">📎 Notes</span>
 
-- Original problem: <a href="https://leetcode.com/problems/reverse-linked-list/submissions/1210349657/" style="color:#ff66cc;">LeetCode Link</a>  
+- Original problem: <a href="https://leetcode.com/problems/reverse-linked-list/" style="color:#ff66cc;">LeetCode Link</a>  
 - Auto-saved via <b style="color:#39ff14;">GitLeet Sync</b>  
 - Developed by <b style="color:#ff0099;">Pratik Rathod</b>  
 
